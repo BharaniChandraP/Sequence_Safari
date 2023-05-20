@@ -1,0 +1,40 @@
+/* div to appear at center
+.btns{
+    display: felx;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#normal
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background-color: #f1f1f1;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+#hacker{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f1f1f1;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+
+@media screen and (max-width: 200px) {
+    *{
+        margin:0;
+        padding: 0;
+    }
+} */
