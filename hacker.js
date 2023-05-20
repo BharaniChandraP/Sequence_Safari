@@ -228,7 +228,7 @@ const update = () => {
 
     //check death 
     const outsidegird = pos => {
-        return( pos.x<1 || pos.x > gridSize || pos.y<1 || pos.y >gridSize )
+        return( pos.x<1 || pos.x > gridSize+1 || pos.y<1 || pos.y >gridSize+1 )
     }
     const timeup = () => {
         return(time.innerHTML == 0)
